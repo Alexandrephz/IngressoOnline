@@ -15,5 +15,8 @@ namespace IngressoOnline.Data
         public DbSet<MovieCategory> movieCategories { get; set; } = default!;
         public DbSet<MovieRating> movieRatings { get; set; } = default!;
         public DbSet<Publisher> publishers { get; set; } = default!;
+        public DbSet<ActorMovie> actorMovies { get; set; } = default!;
+        public DbSet<DirectorMovie> directorMovies { get; set; } = default!;
+        public DbSet<PublisherMovie> publisherMovies { get; set; } = default!;
     }
 }

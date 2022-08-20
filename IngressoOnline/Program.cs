@@ -1,4 +1,5 @@
 using IngressoOnline.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 

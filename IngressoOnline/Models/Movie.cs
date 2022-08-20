@@ -12,10 +12,10 @@
 
         public virtual MovieCategory? MovieCategory { get; set; }
 
-        public virtual List<Publisher>? Publishers { get; set; }
+        public List<ActorMovie>? actorMovies { get; set; }
+        public List<DirectorMovie>? directorMovies { get; set; }
+        public List<PublisherMovie>? publisherMovies { get; set; }
 
-        public virtual List<Actor>? Actors { get; set; }
 
-        public virtual List<Director>? Directors { get; set; }
     }
 }
